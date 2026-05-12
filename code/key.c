@@ -17,7 +17,11 @@ void key_scan(void )
 	B4_state = HAL_GPIO_ReadPin(GPIOA ,GPIO_PIN_0);
 	if(B1_state == 0 && B1_last_state == 1)
 	{
-	 led_show(1,1);
+	 TIM3->ARR = 800-1;       // 1250 - 
+    TIM3->CCR1 = 400;       
+    HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);
+	HAL_Delay(650);
+    A4988_Stop();
 	}
 	B1_last_state =  B1_state ;
 	

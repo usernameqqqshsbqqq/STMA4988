@@ -89,17 +89,16 @@ int main(void)
   MX_GPIO_Init();
   MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
-  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
-  HAL_GPIO_WritePin(GPIOD ,GPIO_PIN_2 ,GPIO_PIN_RESET);  //先锁住led
+    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
+    HAL_GPIO_WritePin(GPIOD ,GPIO_PIN_2 ,GPIO_PIN_RESET);  //先锁住led
     LCD_Init(); 
 	LCD_Clear(Black);
 	LCD_SetBackColor(Black);
 	LCD_SetTextColor(White);
+	
 	A4988_SetDirection(1);
-	A4988_RunConstantSpeed(50.0f);
-	//HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);
-    //TIM3->CCR1 = 500 ;   //ARR100 CCR占空比50设置ccr
-		
+	//A4988_RunConstantSpeed(50.0f);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -107,9 +106,10 @@ int main(void)
   while (1)
   {
 	  
-	 led_show(3,1);
-	 key_scan( );
+	// led_show(3,1);
+	key_scan( );
 	 lcd_show();
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

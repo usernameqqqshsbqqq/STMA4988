@@ -24,16 +24,3 @@ void lcd_show(void )
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
