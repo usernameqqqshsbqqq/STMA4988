@@ -1,0 +1,33 @@
+mode\tim.o: ../Core/Src/tim.c
+mode\tim.o: ../Core/Inc/tim.h
+mode\tim.o: ../Core/Inc/main.h
+mode\tim.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+mode\tim.o: ../Core/Inc/stm32g4xx_hal_conf.h
+mode\tim.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h
+mode\tim.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h
+mode\tim.o: ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h
+mode\tim.o: ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h
+mode\tim.o: ../Drivers/CMSIS/Include/core_cm4.h
+mode\tim.o: D:\AAA keil5\ARM\ARMCC\Bin\..\include\stdint.h
+mode\tim.o: ../Drivers/CMSIS/Include/cmsis_version.h
+mode\tim.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+mode\tim.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+mode\tim.o: ../Drivers/CMSIS/Include/mpu_armv7.h
+mode\tim.o: ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h
+mode\tim.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
+mode\tim.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+mode\tim.o: D:\AAA keil5\ARM\ARMCC\Bin\..\include\stddef.h
+mode\tim.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h
+mode\tim.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h
+mode\tim.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h
+mode\tim.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h
+mode\tim.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h
+mode\tim.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h
+mode\tim.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h
+mode\tim.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h
+mode\tim.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h
+mode\tim.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
+mode\tim.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
+mode\tim.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
+mode\tim.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h
+mode\tim.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
